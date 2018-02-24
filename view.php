@@ -22,7 +22,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jcanvas/20.1.4/jcanvas.js"></script>
         <script src="owl/owl.carousel.min.js"></script>
         
-        <title>Bachmut posst</title>
+        <title>Bachmut post</title>
     </head>
     <body>
         <nav class="pushy pushy-right d-block d-sm-none">
