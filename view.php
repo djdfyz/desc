@@ -22,7 +22,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jcanvas/20.1.4/jcanvas.js"></script>
         <script src="owl/owl.carousel.min.js"></script>
         
-        <title>Bachmut post</title>
+        <title>Bachmut posst</title>
     </head>
     <body>
         <nav class="pushy pushy-right d-block d-sm-none">
@@ -33,7 +33,7 @@
                         <div class="pushy-user-header d-flex  align-items-center justify-content-between">
                             <a href="" class="pushy-user-name   d-flex  align-items-center ">
                                 <img src="images/ico/user.svg" style="margin-right: 10px" class="ico-md img-fluid" alt="">
-                                <span class="">Владимир</span>
+                                <span class="">Владимир   s</span>
                             </a>
                             <i style="" class="pushy-close fa fa-times " aria-hidden="true"></i>
                         
