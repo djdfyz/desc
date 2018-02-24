@@ -1,0 +1,205 @@
+/* Dialogs*/
+
+@media (min-width: 0) and (max-width: 767px) {
+    .mailer-preview {
+        height: 45px !important;
+        width: 45px !important;
+    }
+
+    .dialog-mailer-name {
+        font-size: 16px !important;
+
+    }
+    .message-subject {
+    font-size: 12px !important;
+
+    }
+    .message-subject{
+        display: none  !important;
+    }
+    .dialog-body {
+    height: 90px !important;
+    display: flex;
+}
+    .dialog-body-left{
+        width: 20% !important;
+    }
+
+}
+
+.dialogs-group {
+    border-top: 1px solid #ebeaea;
+}
+
+.dialog a {
+    text-decoration: none;
+}
+
+.dialog:hover {
+    background: #F5F7FA;
+    box-sizing: border-box;
+
+}
+
+.dialog:hover .dialog-body .dialog-body-left {
+    border-color: #ebeaea;
+}
+
+.incoming-dialog.unread {
+    background: #F5F7FA;
+}
+
+.dialog-body {
+    height: 110px;
+    display: flex;
+}
+
+.mailer-preview {
+    /*border: 1px solid #ebeaea;*/
+    box-sizing: border-box;
+    height: 65px;
+    width: 65px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.mailer-preview img {
+    height: 100%;
+    width: auto;
+
+}
+
+.dialog-body-left {
+    box-sizing: content-box;
+    position: relative;
+    padding: 15px 0;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    margin-top: -1px;
+}
+
+.dialog-body-main{
+    display: flex;
+    flex-direction: column;
+   width: 80%;
+border-bottom: 1px solid #ebeaea;
+    padding: 15px 15px 15px 0;
+
+}
+.dialog-body-center {
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.dialog-body-right {
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    display: flex;
+
+}
+
+.message-subject {
+    font-size: 13px;
+    color: black;
+    text-align: left;
+
+}
+
+.dialog-message {
+
+    display: flex;
+    align-items: center;
+}
+
+.outgoing-dialog.unread .dialog-message {
+    padding: 10px;
+    background: #F5F7FA;
+    border-radius: 2px;
+
+}
+
+.dialog-mailer-name {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 5px;
+
+}
+
+.dialog-message {
+    flex-grow: 1;
+    width: 100%;
+    color: #4E5966;
+}
+
+.outgoing-user-ico {
+
+    height: 30px;
+    width: 30px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.outgoing-user-ico img {
+    height: 100%;
+    width: auto;
+}
+
+.cont-incoming-messages {
+    width: 20px;
+    background: #5983f0;
+    color: white;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.dialog-body-header, .dialog-body-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dialog-date {
+    font-weight: 400;
+    color: #4E5966;
+    font-size: 13px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.drop-down-item {
+    height: auto !important;
+    padding: 10px 0;
+    display: flex;
+}
+
+.online {
+    z-index: 500;
+    position: absolute;
+    height: 12px;
+    width: 12px;
+    border: 2px solid white;
+    background: #08BD56;
+    border-radius: 17px;
+    left: 17px;
+    bottom: 17px;
+}
+
+
+

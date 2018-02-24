@@ -1,0 +1,237 @@
+/* conversation */
+.convers-header {
+    border-bottom: 1px solid #ebeaea;
+
+    display: flex;
+    margin-bottom: 15px;
+    justify-content: space-between;
+}
+.convers-back{
+    height: inherit;
+    border-radius: 3px 0 0 0;
+}
+.convers-back:hover{
+       background: #F5F7FA;
+    box-shadow: 20px 0 8px 0 rgba(245, 247, 250, 0.75);
+}
+.convers-back a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    font-size: 18px;
+    color: #6f6c6c;
+    text-decoration: none;
+    padding: 5px 10px 5px 10px;
+}
+.convers-back a span{
+    margin-left: 10px;
+}
+.convers-back a img{
+    height: 18px;
+}
+.mailer-preview{
+    border: 1px solid #ebeaea;
+    box-sizing: border-box;
+    height: 50px;
+    width: 50px;
+    overflow:hidden;
+    display: flex;
+    align-items: center;
+}
+.mailer-preview img{
+    height: 100%;
+    width: auto;
+
+}
+.miler-name{
+    font-size: 22px;
+
+}
+.last-online{
+    font-size: 14px;
+    color: #6f6c6c;
+    text-align: center;
+}
+
+/* Conversation body*/
+.convers-wrapper{
+
+
+}
+.convers-main{
+    display: flex;
+    flex-direction: column;
+
+}
+.convers-body{
+    display: flex;
+    flex-direction: column;
+}
+/* conversation subject*/
+
+.convers-subject a{
+    border-radius: 3px;
+    background: #F5F7FA;
+    display: flex;
+    padding: 15px;
+    text-decoration: none;
+}
+.subject-preview{
+    border-radius: 3px;
+    height: 70px;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    background: #f1f1f1;
+}
+.subject-preview img{
+    height: 70px;
+    width: auto;
+    margin: auto;
+}
+
+.subject-info{
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.subject-name{
+    font-size: 20px;
+    font-weight: 500;
+}
+.subject-id{
+    color: black;
+}
+.subject-cost{
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    flex-grow: 1;
+    text-align: right;
+}
+
+/*Messages*/
+.message-wrapper{
+    height: 550px;
+    margin-top: 15px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.message-wrapper::-webkit-scrollbar {width:0;}
+.massage-sender-ico{
+    position: relative;
+}
+
+.message-block{
+    padding-top: 10px;
+    margin-bottom: 5px;
+    display: flex;
+    border-radius: 3px;
+}
+.massage-sender-ico{
+    margin-right: 20px;
+}
+.message-left-part{
+    padding-left: 10px;
+}
+.message-content{
+   flex-grow: 1;
+}
+
+
+.message-header{
+    display: flex;
+}
+.message-sender-name{
+    margin-right: 10px;
+}
+.message-sender-name a{
+    text-decoration: none;
+    font-size: 17px;
+    color: #5983f0;
+    font-weight: 500;
+}
+.message-date{
+    color: #BBB7BA;
+}
+.message-date:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.sender-preview{
+
+    box-sizing: border-box;
+    height: 40px;
+    width: 40px;
+    overflow:hidden;
+    display: flex;
+    align-items: center;
+}
+.sender-preview img {
+    height: 100%;
+    width: auto;
+}
+.online {
+    z-index: 1000;
+    position: absolute;
+    height: 12px;
+    width: 12px;
+    border: 2px solid white;
+    background: #08BD56;
+    border-radius: 17px;
+    left: 2px;
+    bottom: 2px;
+}
+
+
+.message-text{
+    margin-bottom: 10px ;
+    font-size: 15px;
+}
+.message-history{
+    color: #6f6c6c;
+    display: flex;
+    font-size: 15px;
+    justify-content: center;
+    margin: 10px 0;
+}
+.unread{
+     background: #F5F7FA;
+}
+/*chat*/
+.convers-footer{
+    flex-grow: 1;
+    background: #F5F7FA;
+    border-radius:  0 3px 3px 0;
+}
+.chat-wrapper{
+    border-radius: 3px;
+    padding:10px 15px;
+}
+.chat-input{
+    height: 45px;
+    overflow:visible
+}
+.chat-body .form-input{
+    margin: 0;
+}
+.medial-select-wrapper{
+    cursor: pointer;
+}
+.send-btn-wrapper, .medial-select-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-send{
+
+    background: transparent;
+}
+.btn-send img, .medial-select-wrapper img{
+    height: 30px;
+
+}

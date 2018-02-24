@@ -1,0 +1,61 @@
+/* Managing of posts*/
+@media (min-width:0) and (max-width: 767px) {
+    .post-condition-body {
+        justify-content: space-between;
+    }
+
+    .post-condition-item {
+        width: 49%;
+        margin-right: 0 !important;
+    }
+    .post-condition-item:nth-child(1), .post-condition-item:nth-child(2){
+                margin-bottom: 10px;
+
+    }
+
+}
+
+.post-condition-wrapper {
+    background: #f7f7f7;
+    border-radius: 3px;
+}
+
+.post-condition-body {
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    padding: 10px;
+}
+
+.post-condition-body .active a {
+    color: white;
+    background: #c9c9c9;
+}
+
+.post-condition-item {
+
+    margin-right: 15px;
+}
+
+.post-condition-item a {
+    display: block;
+    padding: 3px 10px;
+    text-decoration: none;
+    color: #5983f0;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.post-condition-item:not(.active) a:hover {
+    background: #e6e6e6;
+    color: #4667bf;
+}
+
+.post-condition-item:not(.active).post-condition-deleted a:hover {
+    color: #d60303ed;
+}
+
+.post-condition-deleted a {
+    color: #d60303ed;
+}

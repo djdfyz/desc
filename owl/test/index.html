@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>Owl Carousel 2</title>
+        
+        <link rel="stylesheet" href="/owl/dist/assets/owl.carousel.css">
+     
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="/owl/dist/owl.carousel.js"></script>
+    
+    </head>
+    <body>
+        <!-- Set up your HTML -->
+        <div class="owl-carousel ">
+            <div class="item">
+                <h4>1</h4>
+            </div>
+            <div class="item">
+                <h4>2</h4>
+            </div>
+            <div class="item">
+                <h4>3</h4>
+            </div>
+            <div class="item">
+                <h4>4</h4>
+            </div>
+            <div class="item">
+                <h4>5</h4>
+            </div>
+            <div class="item">
+                <h4>6</h4>
+            </div>
+            <div class="item">
+                <h4>7</h4>
+            </div>
+            <div class="item">
+                <h4>8</h4>
+            </div>
+            <div class="item">
+                <h4>9</h4>
+            </div>
+            <div class="item">
+                <h4>10</h4>
+            </div>
+            <div class="item">
+                <h4>11</h4>
+            </div>
+            <div class="item">
+                <h4>12</h4>
+            </div>
+        </div>
+        
+        <div class="owl-nav">
+            <div class="customPrevBtn">prev</div>
+            <div class="customNextBtn">next</div>
+        </div>
+        
+        <script>
+            var owl = $('.owl-carousel');
+            owl.owlCarousel({
+                nav: false,
+                dots: false,
+                merge: true,
+                margin:0,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    576: {
+                        items: 4
+                    },
+                    768: {
+                        items: 5
+                    },
+                    992: {
+                        items: 8
+                    },
+                    1200: {
+                        items: 11
+                    }
+                }
+            });
+           
+            owl.owlCarousel();
+            // Go to the next item
+            $('.customNextBtn').click(function () {
+                owl.trigger('next.owl.carousel');
+            });
+            // Go to the previous item
+            $('.customPrevBtn').click(function () {
+                // With optional speed parameter
+                // Parameters has to be in square bracket '[]'
+                owl.trigger('prev.owl.carousel');
+            });
+        </script>
+    </body>
+</html>
